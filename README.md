@@ -6,6 +6,10 @@ A fully normalized 31-table MySQL database and Bash CLI application simulating a
 ![System Demo](assets/demo.gif)
 
 ---
+### ER Diagram
+Detailed ER Diagram
+![ER](docs/TJ-ER-diagram.png)
+
 
 ## System Walkthrough 
 
