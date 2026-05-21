@@ -59,3 +59,16 @@ Executes complex SQL aggregations, self-joins, and hierarchical rollups to drive
 **1. Clone the repository:**
 ```bash
 git clone [https://github.com/yourusername/trader-joes-pos-system.git](https://github.com/yourusername/trader-joes-pos-system.git)
+
+2. Import the database:
+```bash
+mysql -u root -p < src/tj.sql
+
+3. Configure credentials:
+Rename src/.env.example to .env and insert your local MySQL root password.
+
+4. Run the application:
+
+```bash
+chmod +x src/app.sh
+./src/app.sh
